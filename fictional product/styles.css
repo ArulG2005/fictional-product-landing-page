@@ -1,0 +1,153 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .logo img{
+    margin-top: 10p;
+    width: 100px;
+    height: 100px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background:rgb(22, 71, 65);
+    color: #fff;
+    height:80px;
+  }
+  
+  header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 10px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #ffe400;
+  }
+  
+
+  .hero {
+    text-align: center;
+    padding: 60px 10%;
+    color: white;
+    background: 
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+      url(https://sekyo.in/cdn/shop/files/S1_blue_f6a30fe0-2b66-4385-98ce-defcc91df3bb.jpg?width=650);
+    background-position: center;
+    background-size: cover;
+  }
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background:rgb(22, 71, 65);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .hero .btn:hover {
+    background:white;
+    color: orange;
+  }
+  .features {
+    padding: 40px 10%;
+    text-align: center;
+  }
+  
+  .features h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .features-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  
+  .feature-item {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .feature-item img {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .feature-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .feature-item p {
+    font-size: 0.9rem;
+  }
+  .feature-item:hover {
+    background:rgb(22, 71, 65);
+    transform: scale(1.05);
+    color: white;
+  }
+  
+  .feature-item:hover img {
+    transform: scale(1.1);
+  }
+
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10%;
+  }
+  
+  footer .social-icons img {
+    margin: 0 5px;
+    width: 30px;
+    transition: transform 0.3s;
+  }
+  
+  footer .social-icons img:hover {
+    transform: scale(1.2);
+  }
+  
+
+  
